@@ -1,0 +1,76 @@
+q.1->print five friends name without using new line 
+
+#include <stdio.h>
+
+int main()
+{
+    printf("poonam ");
+    printf("pooja ");
+    printf("raj ");
+    printf("mahak ");
+    printf("mohit ");
+
+    return 0;
+}
+
+
+Q.2->print five country name without using new line
+
+#include <stdio.h>
+
+int main()
+{
+    printf("india ");
+    printf("indonesia ");
+    printf("iran ");
+    printf("iraq ");
+    printf("pakistan ");
+
+    return 0;
+}
+
+Q.3->print five city name using new line
+
+#include <stdio.h>
+
+int main()
+{
+    printf("jaipur\n");
+    printf("udaipur\n");
+    printf("bhilwara\n");
+    printf("delhi\n");
+    printf("banglore\n");
+
+    return 0;
+}
+
+Q.4-> print five food name without using new line
+
+#include <stdio.h>
+
+int main()
+{
+    printf("pizza ");
+    printf("sandwich ");
+    printf("donuts ");
+    printf("burger ");
+    printf("frenchfries ");
+
+    return 0;
+}
+
+Q.5->print five fav cafe name using new line
+
+#include <stdio.h>
+
+int main()
+{
+    printf("in house cafe\n");
+    printf("lets brew coffee\n");
+    printf("nothing before coffee\n");
+    printf("peace over coffee\n");
+    printf("oldays cafe\n");
+
+    return 0;
+}
+
