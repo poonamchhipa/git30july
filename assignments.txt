@@ -74,3 +74,346 @@ int main()
     return 0;
 }
 
+
+date-1 aug
+
+assignment questions=
+
+Q.1= print 783
+           -34
+           7.8
+           12
+           123.4223
+
+ans= #include <stdio.h>
+
+int main()
+{
+    int a=783;
+    printf("%d\n",a);
+    int b=-34;
+    printf("%d\n",b);
+    float c=7.8;
+    printf("%f\n",c);
+    int d=12;
+    printf("%d\n",d);
+    float e=123.4223;
+    printf("%f",e);
+    return 0;
+}
+
+Q.2= print r
+           d
+           k
+           w
+           o
+           p
+
+ans= #include <stdio.h>
+
+int main()
+{
+    char a='r';
+    printf("%c\n",a);
+    char b='d';
+    printf("%c\n",b);
+    char c='k';
+    printf("%c\n",c);
+    char d='w';
+    printf("%c\n",d);
+    char e='o';
+    printf("%c\n",e);
+    char f='p';
+    printf("%c",f);
+    return 0;
+}
+
+Q.3= print 67
+
+ans= #include <stdio.h>
+
+int main()
+{
+    int a=67;
+    printf("%d",a);
+    return 0;
+}
+
+Q.4= print 2.35
+
+ans= #include <stdio.h>
+
+int main()
+{
+    float a=2.35;
+    printf("%f",a);
+    return 0;
+}
+
+Q.5= print w
+
+ans= #include <stdio.h>
+
+int main()
+{
+    char a='w';
+    printf("%c\n",a);
+    return 0;
+}
+
+Q.6= print 12342
+           4.56
+           f
+           -32
+           4.5
+
+ans=#include <stdio.h>
+
+int main()
+{
+    int a=12342;
+    printf("%d\n",a);
+    float b=4.56;
+    printf("%f\n",b);
+    char c='f';
+    printf("%c\n",c);
+    int d=-32;
+    printf("%d\n",d);
+    float e=4.5;
+    printf("%f\n",e);
+    return 0;
+}
+
+Q.7= print 34+78
+
+ans= #include <stdio.h>
+
+int main()
+{
+    int a=34;   
+    int b=78;
+    int c=a+b;
+    printf("%d",c);
+    return 0;
+}
+
+Q.8= print 23-6
+
+ans= #include <stdio.h>
+
+int main()
+{
+    int a=23;   
+    int b=6;
+    int c=a-b;
+    printf("%d",c);
+    return 0;
+}
+
+Q.9= print 45*2
+
+ans= #include <stdio.h>
+
+int main()
+{
+    int a=45;   
+    int b=2;
+    int c=a*b;
+    printf("%d",c);
+    return 0;
+}
+
+Q.10= print 56/2
+
+ans= #include <stdio.h>
+
+int main()
+{
+    int a=56;   
+    int b=2;
+    int c=a/b;
+    printf("%d",c);
+    return 0;
+}
+
+Q.11= print 45+78+23+12
+
+ans= #include <stdio.h>
+
+int main()
+{
+    int a=45;   
+    int b=78;
+    int c=23;
+    int d=12;
+    int e=a+b+c+d;
+    printf("%d",e);
+    return 0;
+}
+
+Q.12= print 56*34+12/2-13
+
+ans= #include <stdio.h>
+
+int main()
+{
+    int a=56;   
+    int b=34;
+    int c=12;
+    int d=2;
+    int e=13;
+    int result = a*b+c/d-e;
+    printf("%d",result);
+    return 0;
+}
+
+Q.13= print 1.2*6.7-4.5/2
+
+ans= #include <stdio.h>
+
+int main()
+{
+    float a=1.2;   
+    float b=6.7;
+    float c=4.5;
+    int d=2;
+    float result = a*b-c/d;
+    printf("%f",result); 
+    return 0;
+}
+
+Q.14= print 1.6*(12-2)/2+7.8-1.5
+
+ans=#include <stdio.h>
+
+int main()
+{
+    int a=12;   
+    int b=2;
+    int c=a-b;
+    float d=1.6;
+    int e=2;
+    float f=7.8;
+    float g=1.5;
+    float result=d*c/e+f-g;
+    printf("%f",result);    
+    return 0;
+}
+
+Q.15= print 4.5*1.2-(82/2)-5.6+1.234
+
+ans= #include <stdio.h>
+
+int main()
+{
+    int a=82;   
+    int b=2;
+    int c=a/b;
+    float d=4.5;
+    float e=1.2;
+    float f=5.6;
+    float g=1.234;
+    float result=d*e-c-f+g;
+    printf("%f",result);    
+    return 0;
+}
+
+Q.16= print 8*1+(4-2)/1+6
+
+ans= #include <stdio.h>
+
+int main()
+{
+    int a=4;   
+    int b=2;
+    int c=a-b;
+    int d=8;
+    int e=1;
+    int f=1;
+    int g=6;
+    int result=d*e+c/f+g;
+    printf("%d",result);    
+    return 0;
+}
+
+Q.17= print 3.4+1.2*(3.7-1.2)/2+6.8
+
+ans= #include <stdio.h>
+
+int main()
+{
+    float a=3.7;   
+    float b=1.2;
+    float c=a-b;
+    float d=3.4;
+    float e=1.2;
+    int f=2;
+    float g=6.8;
+    float result=d+e*c/f+g;
+    printf("%f",result);    
+    return 0;
+}
+
+Q.18= print 8.9*1.67-(6.21-5.6)+7.8-34+157
+
+ans= #include <stdio.h>
+
+int main()
+{
+    float a=6.21;   
+    float b=5.6;
+    float c=a-b;
+    float d=8.9;
+    float e=1.67;
+    float f=7.8;
+    int g=34;
+    int h=157;
+    float result=d*e-c+f-g+h;
+    printf("%f",result);    
+    return 0;
+}
+
+* date 2 aug....
+
+Q.1= swap without third variable 
+a=40,b=80
+
+ans= #include <stdio.h>
+
+int main()
+{
+    int a=40;
+    int b=80;
+    printf("the value of a is:%d\n",a);
+    printf("the value of b is:%d\n",b);
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    printf("the swap value of a is:%d\n",a);
+     printf("the swap value of b is:%d\n",b);
+
+    return 0;
+}
+
+
+Q.2= swap with third variable
+   a=40,b=80,c=third variable
+
+ans= #include <stdio.h>
+
+int main()
+{
+    int a=40;
+    int b=80;
+    int c;
+    printf("the value of a is:%d\n",a);
+    printf("the value of b is:%d\n",b);
+    c=a;
+    a=b;
+    b=c;
+    printf("the swap value of a is:%d\n",a);
+     printf("the swap value of b is:%d\n",b);
+
+    return 0;
+}
+

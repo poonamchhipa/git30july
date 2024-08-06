@@ -1,0 +1,524 @@
+5 aug assignment questions=>
+
+Q.1= write a c program and check number is greater than 10 or not.
+
+ans= #include<stdio.h>
+int main(){
+    int num;
+    printf("enter the number");
+    scanf("%d",&num);
+    if(num>10){
+        printf("num is greater than 10");
+    }
+    else{
+        printf("this number is not greater than 10");
+    }
+    return 0;
+}
+
+Q.2= write a c program and check number is greater than 50 or not.
+
+ans= #include<stdio.h>
+int main(){
+    int num;
+    printf("enter the number");
+    scanf("%d",&num);
+    if(num>50){
+        printf("num is greater than 50");
+    }
+    else{
+        printf("num is not greater than 50");
+    }
+    return 0;
+}
+
+Q.3= write a c program and check number is greater than 45 or not.
+
+ans= #include<stdio.h>
+int main(){
+    int num;
+    printf("enter the number");
+    scanf("%d",&num);
+    if(num>45){
+        printf("num is greater than 45");
+    }
+    else{
+        printf("num is not greater than 45");
+    }
+    return 0;
+}
+
+Q.4= write a c program and check a user is valid for vote or not?
+
+ans= #include<stdio.h>
+int main() {
+    int age;
+    printf("enter your age");
+    scanf("%d",&age);
+    if(age>=18){
+        printf("you are eligible to vote");
+    }
+    else{
+        printf("you are not eligible to vote");
+    }
+    return 0;
+}
+
+Q.5= check a number is even or add?
+
+ans= #include<stdio.h>
+int main() {
+    int num;
+    printf("enter the number");
+    scanf("%d",&num);
+    if(num%2==0){
+        printf("number is even");
+    }
+    else{
+        printf("number is odd");
+    }
+    return 0;
+}
+
+Q.6= check a number is divisible by 5 or not?
+
+ans= #include<stdio.h>
+int main() {
+    int num;
+    printf("enter the number");
+    scanf("%d",&num);
+    if(num%5==0){
+        printf("number is divisible by 5");
+    }
+    else{
+        printf("number is not divisible by 5");
+    }
+    return 0;
+}
+
+Q.7= write a c program input character 'a' then print apple otherwise input is not valid?
+
+ans= #include<stdio.h>
+int main() {
+    char a;
+    printf("enter the character");
+    scanf(" %c",&a);
+    if(a=='a'){
+        printf("apple");
+    }
+    else{
+        printf("input is not valid");
+    }
+    return 0;
+}
+
+Q.8= write a c program input character 'h' then print house otherwise input is not valid?
+
+ans= #include<stdio.h>
+int main() {
+    char a;
+    printf("enter the character");
+    scanf(" %c",&a);
+    if(a=='h'){
+        printf("house");
+    }
+    else{
+        printf("input is not valid");
+    }
+    return 0;
+}
+
+Q.9 = check a input is vowel or consonant?
+
+ans= #include<stdio.h>
+int main() {
+    char a;
+    printf("enter the character");
+    scanf(" %c",&a);
+    if(a=='a' || a=='e'|| a=='i' || a=='o' || a=='u'){
+        printf("vowel");
+    }
+    else{
+        printf("consonant");
+    }
+    return 0;
+}
+
+Q.10= write a c program input character when user input p,e,a,k peak word otherwise input is not valid
+
+ans= #include<stdio.h>
+int main() {
+    char a;
+    printf("enter the character");
+    scanf(" %c",&a);
+    if(a=='p' || a=='e'|| a=='a' || a=='k' ){
+        printf("peak");
+    }
+    else{
+        printf("input is not valid");
+    }
+    return 0;
+}
+
+Q.11= write a c program input character when user input q,w,e,r,t,y,u,i,o,p upper line otherwise input is not valid.
+
+ans= #include<stdio.h>
+int main() {
+    char a;
+    printf("enter the character");
+    scanf(" %c",&a);
+    if(a=='q' || a=='w'|| a=='e' || a=='r' || a=='t' || a=='y'|| a=='u' || a=='i' || a=='o' || a=='p' ){
+        printf("upperline");
+    }
+    else{
+        printf("input is not valid");
+    }
+    return 0;
+}
+
+Q.12= write a c program input number when user input a number 1 then print one otherwise input is not valid.
+
+ans= #include<stdio.h>
+int main() {
+    int num;
+    printf("enter the num");
+    scanf("%d",&num);
+    if(num==1){
+        printf("one");
+    }
+    else{
+        printf("input is not valid");
+    }
+    return 0;
+}
+
+Q.13= print 783
+            -34 
+             7.8
+            12
+            123.4223
+
+ans= #include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the number");
+    scanf("%d",&a);
+    float b;
+    printf("enter the number");
+    scanf("%f",&b);
+    return 0;
+}
+
+Q.14= print r
+            d
+            k
+            w
+            o
+            p
+
+ans= #include <stdio.h>
+
+int main()
+{
+    char a;
+    printf("enter the character");
+    scanf("%c",&a);
+    return 0;
+}
+
+Q.15= print 34+78
+
+ans= #include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d",&b);
+    int c=a+b;
+    printf("%d",c);
+    return 0;
+}
+
+Q.16= print 23-6
+
+ans= #include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d",&b);
+    int c=a-b;
+    printf("%d",c);
+    return 0;
+}
+
+Q.17= print 45*2
+
+ans= #include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d",&b);
+    int c=a*b;
+    printf("%d",c);
+    return 0;
+}
+
+Q.18= print 56/2
+
+ans= #include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d",&b);
+    int c=a/b;
+    printf("%d",c);
+    return 0;
+}
+
+Q.19= 45+78+23+12
+
+ans= #include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d",&b);
+    int c;
+    printf("enter the value of c");
+    scanf("%d",&c);
+    int d;
+    printf("enter the value of d");
+    scanf("%d",&d);
+    int e=a+b+c+d;
+    printf("%d",e);
+    return 0;
+}
+
+
+Q.20= print 56*34+12/2-13
+
+ans= #include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d",&b);
+    int c;
+    printf("enter the value of c");
+    scanf("%d",&c);
+    int d;
+    printf("enter the value of d");
+    scanf("%d",&d);
+    int e;
+    printf("enter the value of e");
+    scanf("%d",&e);
+    int f=a*b+c/d-e;
+    printf("%d",f);
+    return 0;
+}
+
+Q.21= 1.2*6.7-4.5/2
+
+ans= #include <stdio.h>
+
+int main()
+{
+    float a;
+    printf("enter the value of a");
+    scanf("%f",&a);
+    float b;
+    printf("enter the value of b");
+    scanf("%f",&b);
+    float c;
+    printf("enter the value of c");
+    scanf("%f",&c);
+    int d;
+    printf("enter the value of d");
+    scanf("%d",&d);
+    float e=a*b-c/d;
+    printf("%f",e);
+    return 0;
+}
+
+
+Q.22= 1.6*(12-2)/2+7.8-1.5
+
+ans=
+int main()
+{
+    float a;
+    printf("enter the value of a");
+    scanf("%f",&a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d",&b);
+    int c;
+    printf("enter the value of c");
+    scanf("%d",&c);
+    int d;
+    printf("enter the value of d");
+    scanf("%d",&d);
+    float e;
+    printf("enter the value of e");
+    scanf("%f",&e);
+    float f;
+    printf("enter the value of f");
+    scanf("%f",&f);
+    float g=a*(b-c)/d+e-f;
+    printf("%f",g);
+    return 0;
+}
+
+Q.23= 4.5*1.2-(82/2)-5.6+1.234
+
+ans=int main()
+{
+    float a;
+    printf("enter the value of a");
+    scanf("%f",&a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d",&b);
+    int c;
+    printf("enter the value of c");
+    scanf("%d",&c);
+    int d;
+    printf("enter the value of d");
+    scanf("%d",&d);
+    float e;
+    printf("enter the value of e");
+    scanf("%f",&e);
+    float f;
+    printf("enter the value of f");
+    scanf("%f",&f);
+    float g=a*b-(c/d)-e+f;
+    printf("%f",g);
+    return 0;
+}
+
+Q.24= 8*1+(4-2)/1+6
+
+ans= #include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value of a");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d",&b);
+    int c;
+    printf("enter the value of c");
+    scanf("%d",&c);
+    int d;
+    printf("enter the value of d");
+    scanf("%d",&d);
+    int e;
+    printf("enter the value of e");
+    scanf("%d",&e);
+    int f;
+    printf("enter the value of f");
+    scanf("%d",&f);
+    int g=a*b+(c-d)/e+d;
+    printf("%d",e);
+    return 0;
+}
+
+Q.25= 3.4+1.2*(3.7-1.2)/2+6.8
+
+ans= #include <stdio.h>
+
+int main()
+{
+    float a;
+    printf("enter the value of a");
+    scanf("%f",&a);
+    float b;
+    printf("enter the value of b");
+    scanf("%f",&b);
+    float c;
+    printf("enter the value of c");
+    scanf("%f",&c);
+    float d;
+    printf("enter the value of d");
+    scanf("%f",&d);
+    int e;
+    printf("enter the value of e");
+    scanf("%d",&e);
+    float f;
+    printf("enter the value of f");
+    scanf("%f",&f);
+    float g=a+b*(c-d)/e+f;
+    printf("%f",e);
+    return 0;
+}
+
+Q.26= 8.9*1.67-(6.21-5.6)+7.8-34+157
+
+ans=#include <stdio.h>
+
+int main()
+{
+    float a;
+    printf("enter the value of a");
+    scanf("%f",&a);
+    float b;
+    printf("enter the value of b");
+    scanf("%f",&b);
+    float c;
+    printf("enter the value of c");
+    scanf("%f",&c);
+    float d;
+    printf("enter the value of d");
+    scanf("%f",&d);
+    float e;
+    printf("enter the value of e");
+    scanf("%f",&e);
+    int f;
+    printf("enter the value of f");
+    scanf("%d",&f);
+    int g;
+    printf("enter the value of g");
+    scanf("%d",&g);
+    float h=a*b-(c-d)+e-f+g;
+    printf("%f",e);
+    return 0;
+}
+
+
+
+
+
+
+
+
