@@ -1,0 +1,756 @@
+Q.1= two number maximum
+
+ans= #include <stdio.h>
+
+int main()
+{
+    int num1,num2;
+    printf("enter no");
+    scanf("%d %d",&num1,&num2);
+    if(num1>num2){
+    printf("num1 is greater than num2");}
+    else{
+    printf("num2 is greater than num1");
+        }
+    return 0;
+}
+
+Q.2= three number maximum
+
+ans= #include <stdio.h>
+
+int main()
+{
+    int num1,num2,num3;
+    printf("enter no");
+    scanf("%d %d %d",&num1,&num2,&num3);
+    if(num1>num2 && num1>num3){
+    printf("num1 is greater");}
+    else if(num2>num1 && num2>num3){
+    printf("num2 is greater");
+    }
+    else{
+        printf("num3 is greater");
+    }
+    return 0;
+}
+
+Q.3= e :
+	even number check 
+
+v :
+	check voter id valid or not 
+
+s :
+	seasons 
+
+m :
+	marksheet 
+
+k :
+	keyboard 
+
+c :
+	vowel and consonant 
+
+input is not valid  
+
+ans= #include <stdio.h>
+
+int main()
+{
+    char a;
+    printf("enter any one character");
+    scanf("%c",&a);
+    if(a=='e'){
+        int num;
+        printf("enter the number");
+        scanf("%d",&num);
+        if(num%2==0){
+            printf("even");
+        }
+    }
+    else if(a=='v'){
+    int age;
+    printf("enter the age");
+    scanf("%d",&age);
+    if(age>=18){
+        printf("you are eligible to vote");
+    }
+    else{
+        printf("you are not eligible to vote");
+    }
+    }
+    else if(a=='s'){
+    int a;
+    printf("enter the a");
+    scanf("%d",&a);
+    if(a==1 || a==2 || a==3 || a==12){
+        printf("winter");
+    }
+    else if(a==4 || a==5 || a==6 ){
+        printf("summer");
+    }
+    else if(a==7 || a==8 || a==9){
+        printf("rainy");
+    }
+    else if(a==10 || a==11 ){
+        printf("post monsoon");
+    }
+
+    }
+    
+    else if(a=='m')
+    {
+    int Maths,Science,English;
+    printf("enter the subject");
+    scanf("%d %d %d",&Maths,&Science,&English);
+    float percent;
+    percent=(Maths+Science+English)/300.0*100;
+    printf("percent : %f",percent);
+    if(percent>80)
+    {
+        printf("grade is A");
+        
+    }
+        else if(percent>=65 && percent<=80){
+            printf("grade is B");
+        }
+        else if(percent>=45 && percent<=65){
+            printf("grade is C");
+        }
+        else{
+            printf("fail");
+        }
+    }
+    
+    else if(a=='K'){
+        char a;
+    printf("enter the character");
+    scanf(" %c",&a);
+    if(a=='q' || a=='w' || a=='e' || a=='r' || a=='t' || a=='y' || a=='u' || a=='i' || a=='o' || a=='p'){
+        printf("upperline");
+    }
+    else if(a=='a' || a=='s' || a=='d' || a=='f' || a=='g' || a=='h' || a=='j' || a=='k' || a=='l'){
+        printf("midline");
+    }
+    else if(a=='z' || a=='x' || a=='c' || a=='v' || a=='b' || a=='n' || a=='m'){
+        printf("lowerline");
+    }
+    else{
+        printf("input is not valid");
+    }
+    }
+    
+    else if(a=='c'){
+        char a;
+    printf("enter the character");
+    scanf(" %c",&a);
+    if(a=='a' || a=='e'|| a=='i' || a=='o' || a=='u'){
+        printf("vowel");
+    }
+    else{
+        printf("consonant");
+    }
+
+    }
+    return 0;
+}
+    
+
+Q.4= s :
+	w :with third variable number swap 
+	o :without third variable number swap 
+
+input is not valid 
+
+ans=#include <stdio.h>
+
+int main()
+{
+   
+	char s;
+	printf("enter the character:");
+	scanf(" %c",&s);
+	if(s=='o'){
+		int a,b;
+		printf("enter the value of a and b");
+		scanf("%d %d",&a,&b);
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		printf("the swap value of a is:%d\n",a);
+        printf("the swap value of b is:%d\n",b);
+	}
+	else if(s=='w'){
+		int a,b,c;
+		printf("the value of a is:\n");
+        printf("the value of b is:\n");
+		scanf("%d %d",&a,&b);
+		c=a;
+		a=b;
+		b=c;
+		printf("the swap value of a is:%d\n",a);
+        printf("the swap value of b is:%d\n",b);
+	}
+	else {
+		printf("input value is not valid");
+	}
+	
+
+    return 0;
+}
+    
+
+Q.5= 1--->10 number print (dry run)
+
+1----->100 
+
+50--->100
+
+45---->89 
+
+
+10--->1 (dry run)
+
+100--->1 
+
+100-->50
+
+89----->45 
+
+ans= 1------->10
+
+#include <stdio.h>
+
+int main()
+{
+   int a=1;
+   while(a<=10){
+       printf("%d",a);
+       a++;
+   }
+   
+	
+
+    return 0;
+}
+    
+
+
+1--------->100
+
+
+#include <stdio.h>
+
+int main()
+{
+   int a=1;
+   while(a<=100){
+       printf("%d",a);
+       a++;
+   }
+   
+	
+
+    return 0;
+}
+
+50-------->100
+
+#include <stdio.h>
+
+int main()
+{
+   int a=50;
+   while(a<=100){
+       printf("%d",a);
+       a++;
+   }
+   
+	
+
+    return 0;
+}
+    
+
+45------>99
+
+#include <stdio.h>
+
+int main()
+{
+   int a=45;
+   while(a<=99){
+       printf("%d",a);
+       a++;
+   }
+   
+	
+
+    return 0;
+}
+    
+
+
+10---------1>
+
+#include <stdio.h>
+
+int main()
+{
+   int a=10;
+   while(a>=1){
+       printf("%d",a);
+       a--;
+   }
+   
+	
+
+    return 0;
+}
+
+100---------1
+
+#include <stdio.h>
+
+int main()
+{
+   int a=100;
+   while(a>=1){
+       printf("%d",a);
+       a--;
+   }
+   
+	
+
+    return 0;
+}
+
+100------->50
+
+#include <stdio.h>
+
+int main()
+{
+   int a=100;
+   while(a>=50){
+       printf("%d",a);
+       a--;
+   }
+   
+	
+
+    return 0;
+}
+    
+
+
+89------>45
+
+
+#include <stdio.h>
+
+int main()
+{
+   int a=89;
+   while(a>=45){
+       printf("%d",a);
+       a--;
+   }
+   
+	
+
+    return 0;
+}
+
+
+Q.6= even number 
+
+1--->10 number print (dry run)
+
+1----->100 
+
+50--->100
+
+45---->89 
+
+
+10--->1 (dry run)
+
+100--->1 
+
+100-->50
+
+89----->45 
+
+
+ans= 1---------->10
+
+#include <stdio.h>
+
+int main()
+{
+   int a=1;
+   while(a<=10){
+       if(a%2==0){
+       printf("%d",a);}
+       a++;
+   }
+    return 0;
+}
+    
+
+1------------>100
+
+#include <stdio.h>
+
+int main()
+{
+   int a=1;
+   while(a<=100){
+       if(a%2==0){
+       printf("%d",a);}
+       a++;
+   }
+    return 0;
+}
+
+
+50---------->100
+
+#include <stdio.h>
+
+int main()
+{
+   int a=50;
+   while(a<=100){
+       if(a%2==0){
+       printf("%d",a);}
+       a++;
+   }
+    return 0;
+}
+
+
+45----------->89
+
+
+#include <stdio.h>
+
+int main()
+{
+   int a=45;
+   while(a<=89){
+       if(a%2==0){
+       printf("%d",a);}
+       a++;
+   }
+    return 0;
+}
+
+
+
+10---------->1
+
+#include <stdio.h>
+
+int main()
+{
+   int a=10;
+   while(a>=1){
+       if(a%2==0){
+       printf("%d",a);}
+       a--;
+   }
+    return 0;
+}
+
+        
+
+100--------->1
+
+#include <stdio.h>
+
+int main()
+{
+   int a=100;
+   while(a>=1){
+       if(a%2==0){
+       printf("%d",a);}
+       a--;
+   }
+    return 0;
+}
+
+100---------->50
+
+#include <stdio.h>
+
+int main()
+{
+   int a=100;
+   while(a>=50){
+       if(a%2==0){
+       printf("%d",a);}
+       a--;
+   }
+    return 0;
+}
+
+89-------->45 
+
+#include <stdio.h>
+
+int main()
+{
+   int a=89;
+   while(a>=45){
+       if(a%2==0){
+       printf("%d",a);}
+       a--;
+   }
+    return 0;
+}
+
+Q.7= odd number 
+
+1--->10 number print (dry run)
+
+1----->100 
+
+50--->100
+
+45---->89 
+
+
+10--->1 (dry run)
+
+100--->1 
+
+100-->50
+
+89----->45 
+
+ans=  1---------->10
+
+#include <stdio.h>
+
+int main()
+{
+   int a=1;
+   while(a<=10){
+       if(a%2!=0){
+       printf("%d",a);}
+       a++;
+   }
+    return 0;
+}
+
+
+1------------>100
+
+#include <stdio.h>
+
+int main()
+{
+   int a=1;
+   while(a<=100){
+       if(a%2!=0){
+       printf("%d",a);}
+       a++;
+   }
+    return 0;
+}
+
+50--------->100
+
+#include <stdio.h>
+
+int main()
+{
+   int a=50;
+   while(a<=100){
+       if(a%2!=0){
+       printf("%d",a);}
+       a++;
+   }
+    return 0;
+}
+
+45-------->89
+
+#include <stdio.h>
+
+int main()
+{
+   int a=45;
+   while(a<=89){
+       if(a%2!=0){
+       printf("%d",a);}
+       a++;
+   }
+    return 0;
+}
+
+
+10------------>1
+
+#include <stdio.h>
+
+int main()
+{
+   int a=10;
+   while(a>=1){
+       if(a%2!=0){
+       printf("%d",a);}
+       a--;
+    }
+    return 0;
+}
+
+100----------->1
+
+#include <stdio.h>
+
+int main()
+{
+   int a=100;
+   while(a>=1){
+       if(a%2!=0){
+       printf("%d",a);}
+       a--;
+    }
+    return 0;
+}
+
+100------------>50
+
+#include <stdio.h>
+
+int main()
+{
+   int a=100;
+   while(a>=50){
+       if(a%2!=0){
+       printf("%d",a);}
+       a--;
+    }
+    return 0;
+}
+
+
+89-------->45
+
+#include <stdio.h>
+
+int main()
+{
+   int a=89;
+   while(a>=45){
+       if(a%2!=0){
+       printf("%d",a);}
+       a--;
+    }
+    return 0;
+}
+
+
+Q.8=a :
+	1--->10 number print 
+
+b :
+	56--->34 number print 
+
+c :
+	1---->100 even number 
+
+d :
+	87----->32 odd number 
+
+input is not valid 
+
+ans= #include <stdio.h>
+
+int main()
+{
+    char p;
+    printf("enter the character");
+    scanf("%c",&p);
+    if(p=='a'){
+        int e=1;
+        while(e<=10){
+            printf("%d",e);
+            e++;
+        }
+    }
+    
+    else if(p=='b'){
+        int e=56;
+        while(e>=34){
+            printf("%d",e);
+            e--;
+        }
+        
+    }
+    
+    else if(p=='c'){
+        int e=1;
+        while(e<=100){
+            printf("%d",e);
+            e++;
+        }
+    }   
+    else if(p=='d'){
+        int e=87;
+        while(e>=32){
+            printf("%d",e);
+            e--;
+        }
+        
+    }
+    else{
+        printf("input is not valid");
+    }
+        
+        
+    
+    return 0;
+   
+}
+        
+    
+
+    
+    
+        
+    
+
+        
+    
+
+
+
+
+
+
+
+
+
+
+        
+
+     
+
+
+
+
+
+    
+
+    
+
+
+    
+
+    
