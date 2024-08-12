@@ -1,0 +1,235 @@
+date= 9 aug assignment
+
+Q.1= 1------------10 addition
+
+ans= #include<stdio.h>
+int main(){
+    int a=1;
+    int sum=0;
+    while(a<=10){
+        sum=sum+a;
+        a++;
+    }
+    printf("%d",sum);
+    return 0;
+}
+
+Q.2= count of digit: 342484
+
+ans= #include<stdio.h>
+int main(){
+    int n=342484;
+    int count=0;
+    while(n>0){
+        n=n/10;
+        count++;
+    }
+    printf("%d",count);
+    return 0;
+}
+
+Q.3= reverse digit: 4456
+
+ans= #include<stdio.h>
+int main(){
+    int n=4456;
+    int rem,sum=0;
+    while(n>0){
+        rem=n%10;
+        sum=sum*10+rem;
+        n=n/10;
+    }
+    printf("%d",sum);
+    return 0;
+}
+
+Q.4= palindrome number: 13531
+
+ans= #include<stdio.h>
+int main(){
+    int n=13531;
+    int temp=n;
+    int rem,sum=0;
+    while(n>0){
+        rem=n%10;
+        sum=sum*10+rem;
+        n=n/10;
+    }
+    if(temp==sum){
+        printf("number is palindrome");
+    }
+    else{
+        printf("number is not palindrome");
+    }
+    return 0;
+}
+
+Q.5= Armstrong number
+
+ans= #include<stdio.h>
+int main(){
+    int n=371;
+    int temp=n;
+    int rem,sum=0;
+    while(n>0){
+        rem=n%10;
+        sum=sum+rem*rem*rem;
+        n=n/10;
+    }
+    if(temp==sum){
+        printf("armstrong number");
+    }
+    else{
+        printf("not");
+    }
+    return 0;
+}
+
+Q.6= neon number:9
+
+ans= #include<stdio.h>
+int main(){
+    int n;
+    int square,sum=0;
+    printf("enter your number:");
+    scanf("%d",&n);
+    square=n*n;
+    while(square>0){
+        sum+=square%10;
+        square=square/10;
+    }
+    if(sum==n){
+        printf("%d is a neon number",n);
+    }
+    else{
+        printf("%d is not a neon number",n);
+    }
+    return 0;
+
+    
+}
+
+Q.7= sum of digit : 434 => 4+3+4=11
+
+ans =include<stdio.h>
+int main(){
+    int n=434;
+    int rem,sum=0;
+    while(n>0){
+        rem=n%10;
+        sum=sum+rem;
+        n=n/10;
+    }
+    printf("sum of digits is:%d",sum);
+    return 0;
+    
+}
+
+Q.8=  1------------10 sum of even numbers
+
+ans= #include<stdio.h>
+int main(){
+    int a=1;
+    int sum=0;
+    while(a<=10){
+        if(a%2==0){
+           sum=sum+a;
+        }
+        a++;
+    }
+    printf("%d",sum);
+    return 0;
+}
+
+
+Q.9= 10-----------1 sum of odd numbers  
+
+ans= #include<stdio.h>
+int main(){
+    int a=10;
+    int sum=0;
+    while(a>=1){
+        if(a%2!=0){
+           sum=sum+a;
+        }
+        a--;
+    }
+    printf("%d",sum);
+    return 0;
+}
+
+
+Q.10= a: Armstrong number
+      p:palindrome number
+      r:number reverse
+      s:sum of digit
+
+ans= #include<stdio.h>
+int main(){
+    char a;
+    printf("enter the character");
+    scanf("%c",&a);
+    if(a=='a'){
+        int n=371;
+        int temp=n;
+        int rem,sum=0;
+        while(n>0){
+            rem=n%10;
+            sum=sum+rem*rem*rem;
+            n=n/10;
+        }      
+        if(temp==sum){
+        printf("armstrong number");
+        }
+        else{
+        printf("not");
+        }
+
+    }
+    
+    else if(a=='p'){
+        int n=13531;
+        int temp=n;
+        int rem,sum=0;
+        while(n>0){
+        rem=n%10;
+        sum=sum*10+rem;
+        n=n/10;
+        }
+        if(temp==sum){
+        printf("number is palindrome");
+        }
+        else{
+        printf("number is not palindrome");
+        }
+
+    }
+    
+   
+    else if(a=='r'){
+        int n=4456;
+        int rem,sum=0;
+        while(n>0){
+        rem=n%10;
+        sum=sum*10+rem;
+        n=n/10;
+        }
+        printf("the reverse number is:%d",sum);
+
+    }
+    
+    else if(a=='s'){
+        
+        int n=434;
+        int rem,sum=0;
+        while(n>0){
+        rem=n%10;
+        sum=sum+rem;
+        n=n/10;
+        }
+        printf("sum of digits is:%d",sum);
+ 
+    }
+    return 0;
+}         
+
