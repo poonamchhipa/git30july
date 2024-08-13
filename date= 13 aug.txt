@@ -1,0 +1,153 @@
+date= 13 aug
+
+Q.1= 
+*
+**
+***
+****
+*****
+
+ans= #include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=i;j++){
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+Q.2= 
+*****
+****
+***
+**
+*
+
+ans= #include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=5;j>=i;j--){
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+Q.3= 
+*
+**
+***
+****
+*****
+*****
+****
+***
+**
+*
+
+
+ans= #include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=i;j++){
+            printf("*");
+        }
+        printf("\n");
+    }
+    for(int i=1;i<=5;i++){
+        for(int j=5;j>=i;j--){
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+Q.4= 
+*****
+****
+***
+**
+*
+*
+**
+***
+****
+*****
+
+ans= #include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=5;j>=i;j--){
+            printf("*");
+        }
+        printf("\n");
+    }
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=i;j++){
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+Q.5= 
+*****
+****
+***
+**
+*
+**
+***
+****
+*****
+
+
+ans= #include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=5;j>=i;j--){
+            printf("*");
+        }
+        printf("\n");
+    }
+    for(int i=2;i<=5;i++){
+        for(int j=1;j<=i;j++){
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+Q.6= 
+*
+**
+***
+****
+*****
+****
+***
+**
+*
+
+ans= #include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=i;j++){
+            printf("*");
+        }
+        printf("\n");
+    }
+    for(int i=1;i<=5;i++){
+        for(int j=4;j>=i;j--){
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}
