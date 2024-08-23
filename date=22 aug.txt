@@ -1,0 +1,230 @@
+date=22 aug
+
+Q.1=hello world print through function 
+
+ans=
+#include<stdio.h>
+void show();
+int main(){
+    show();
+    return 0;
+}
+//function define 
+void show(){
+    printf("Hello World\n");
+}
+
+Q.2=addition
+sub
+multi
+div 
+through function 
+
+ans=
+#include<stdio.h>
+void add();
+void sub();
+void mul();
+void div();
+int main(){
+    add();
+    sub();
+    mul();
+    div();
+    return 0;
+}
+void add(){
+    int a,b,c;
+    printf("enter the value of a and b ");
+    scanf("%d %d",&a,&b);
+    c=a+b;
+    printf("%d\n",c);
+}
+void sub(){
+    int a,b,c;
+    printf("enter the value of a and b");
+    scanf("%d %d",&a,&b);
+    c=a-b;
+    printf("%d\n",c);
+}
+void mul(){
+    int a,b,c;
+    printf("enter the value of a and b");
+    scanf("%d %d",&a,&b);
+    c=a*b;
+    printf("%d\n",c);
+}
+void div(){
+    int a,b,c;
+    printf("enter the value of a and b");
+    scanf("%d %d",&a,&b);
+    c=a/b;
+    printf("%d\n",c);
+}
+
+
+Q.3=swap()  :with third variable 
+wswap() :without third variable 
+
+through function 
+
+
+ans=
+#include<stdio.h>
+void swap1();
+void swap2();
+int main(){
+    swap1();
+    swap2();
+   
+    return 0;
+}
+void swap1(){
+    int a=10;
+    int b=20;
+    printf("the value of a is:%d\n",a);
+    printf("the value of b is:%d\n",b);
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    printf("the swap value of a is:%d\n",a);
+    printf("the swap value of b is:%d\n",b);
+}
+void swap2(){
+    int a=10;
+    int b=20;
+    int c;
+    printf("the value of a is:%d\n",a);
+    printf("the value of b is:%d\n",b);
+    c=a;
+    a=b;
+    b=c;
+    printf("the swap value of a is:%d\n",a);
+    printf("the swap value of b is:%d\n",b);
+}
+
+
+Q.4=a :
+	check Armstrong number 
+
+p :
+	check palindrome number 
+
+e :
+	check even number 
+
+r :
+	reverse number check 
+c :
+	count digit 
+
+s :
+	sum of digit 
+
+ans=
+#include<stdio.h>
+void armstrong();
+void palindrome();
+void even();
+void reverse();
+void count();
+void sum_digit();
+
+int main(){
+   char input;
+   printf("enter any single character");
+   scanf("%c",&input);
+   if(input =='a'){
+       armstrong();
+   }
+   else if(input == 'p'){
+       palindrome();
+   }
+   else if(input == 'e'){
+       even();
+   }
+   else if(input == 'r'){
+       reverse();
+   }
+   else if(input == 'c'){
+       count();
+   }
+   else if(input == 's'){
+       sum_digit();
+   }
+   else{
+       printf("input is not valid ");
+   }
+    return 0;
+}
+void armstrong(){
+    int num=153;
+    int temp=num;
+    int rem,sum=0;
+    while(num>0){
+        rem=num%10;
+        sum=sum+rem*rem*rem;
+        num=num/10;
+    }
+    if(temp==sum){
+        printf("armstrong number");
+    }
+    else{
+        printf("not");
+    }
+}
+void palindrome(){
+    int n=13531;
+    int temp=n;
+    int rem,sum=0;
+    while(n>0){
+        rem=n%10;
+        sum=sum*10+rem;
+        n=n/10;
+    }
+    if(temp==sum){
+        printf("number is palindrome");
+    }
+    else{
+        printf("number is not palindrome");
+    }
+}
+void even(){
+    int a=24;
+    if(a%2==0){
+        printf("even no.");
+    }
+    else{
+        printf("odd");
+    }
+}
+void reverse(){
+    int n=456;
+    int rem,sum=0;
+    while(n>0){
+        rem=n%10;
+        sum=sum*10+rem;
+        n=n/10;
+    }
+    printf("%d",sum);
+}
+
+void count(){
+    int n=342484;
+    int count=0;
+    while(n>0){
+        n=n/10;
+        count++;
+    }
+    printf("%d",count);
+}
+void sum_digit(){
+    int sum=0;
+    for(int i=1;i<=10;i++){
+        sum=sum+i;
+    }
+    printf("%d",sum);
+}
+
+
+
