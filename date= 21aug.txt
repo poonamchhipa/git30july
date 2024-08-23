@@ -1,0 +1,718 @@
+date= 20aug 
+
+Q.1=
+*****
+*   *
+*   *
+*   *
+*****
+
+
+ans=
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(i==1 || i==5 || j==1 || j==5){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+    
+
+
+Q.2= 
+*****
+*   *
+*****
+*   *
+*   *
+
+
+ans= 
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(i==1 || i==3 || j==1 || j==5){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+    
+
+Q.3= 
+*****
+*   *
+*****
+*   *
+*****
+
+ans= 
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(i==1 || i==3 || i==5 || j==1 || j==5){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+    
+
+Q.4=
+*****
+*
+*
+*
+*****
+
+ans= 
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(i==1 || i==5 || j==1 ){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+    
+
+Q.5=
+*****
+    *
+    *
+    *
+*****
+
+ans=
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(i==1 || i==5 || j==5 ){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+    
+
+
+Q.6=
+*   *
+*   *
+*   *
+*   *
+*****
+
+ans=
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(i==5 || j==1 || j==5 ){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+    
+
+Q.7=
+*****
+*   *
+*   *
+*   *
+*   *
+
+
+ans=
+
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(i==1 || j==1 || j==5 ){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+    
+
+Q.8=
+*****
+*
+*****
+*
+*****
+
+ans=
+
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(i==1 || i==3 || i==5 || j==1 ){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+Q.9=
+
+*****
+*
+*****
+*
+*
+
+ans=
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(i==1 || i==3 || j==1 ){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+    
+
+Q.10=
+
+*   *
+*   *
+*****
+*   *
+*   *
+
+ans=
+
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(i==3 || j==1 || j==5 ){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+    
+
+Q.11=
+
+*****
+  *
+  *
+  *
+*****
+
+ans=
+
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(i==1 || i==5 || j==3 ){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+    
+
+Q.12=
+
+*
+*
+*
+*
+*****
+
+ans=
+
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(i==5 || j==1 ){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+    
+
+Q.13=
+
+*****
+    *
+    *
+    *
+    *
+
+ans= 
+
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(i==1 || j==5 ){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+    
+
+Q.14=
+
+*****
+*
+*
+*
+*
+
+ans=
+
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(i==1 || j==1 ){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+    
+
+Q.15=
+
+    *
+    *
+    *
+    *
+*****
+
+ans=
+
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(i==5 || j==5 ){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+    
+
+Q.16=
+
+*****
+   *
+  *
+ *
+*****
+
+ans=
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(i==1 || i==5 || j==1 || j==5){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+Q.17=
+*****
+ *
+  *
+   *
+*****
+
+ans=
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(i==1 || i==5 || i==j){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+Q.18=
+*
+ * 
+  *
+   *
+    *
+
+ans=
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(i==1 || i==5 || i==j){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+Q.19=
+     *
+    *
+   *
+  *
+ *
+
+ans=
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(i+j==5+1){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+
+Q.20=
+
+*****
+* *
+*  *
+*   *
+*    *
+
+
+ans=
+
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(i==1 || j==1 || i==j){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+Q.21=
+
+*****
+  * *
+ *  *
+*   *    
+    *
+
+ans=
+
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(i==1 || j==5 || i+j==5+1){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+Q.22=
+*   *
+ *  *
+  * *
+   **
+*****
+
+
+ans=
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(i==5 || j==5 || i==j){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+
+Q.23=
+
+*     *
+*   *
+* *
+**
+*****
+
+
+ans=
+
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(i==5 || j==1 || i+j==5+1){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+Q.24=
+
+*****
+**  *
+* * *
+*  **
+*****
+
+ans=
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(i==1 || i==5 || j==1 || j==5 || i==j){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+Q.25=
+*****
+*  **
+* * *
+**  *
+*****
+
+ans=
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(i==1 || i==5 || j==1 || j==5 || i+j==5+1){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+Q.26=
+*****
+** **
+* * *
+** **
+*****
+
+ans=
+
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if(i==1 || i==5 || j==1 || j==5 || i+j==5+1 || i==j){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+Q.27=
+*     *
+ *   *
+   * 
+ *   *
+*      *
+ans=
+
+#include<stdio.h>
+int main(){
+    for(int i=1;i<=5;i++){
+        for(int j=1;j<=5;j++){
+            if( i+j==5+1 || i==j){
+                printf("*");
+            }
+            else{
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
